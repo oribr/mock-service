@@ -16,7 +16,7 @@ In order to map a new request all you need to add request configuration .json fi
 run ```npm install```
 run ```npm start```
 
-
+```GET : localhost:8081/api/blahblah```
 
 ## References
 
