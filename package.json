@@ -1,0 +1,17 @@
+{
+  "name": "mock-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "express": "node ./bin/www",
+    "start": "concurrently 'npm run express' 'npm run serve'",
+    "serve": "wiremock ./mock-service --port 8081"
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "~4.16.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.81.0",
+    "wiremock": "^2.24.0"
+  }
+}
